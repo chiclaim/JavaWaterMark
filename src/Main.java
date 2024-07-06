@@ -58,8 +58,8 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-        File file = new File("/Users/apple/Downloads/sfz.png");
+        File file = new File("arts/WX20240706-103043.png");
         BufferedImage image = ImageIO.read(file);
-        addTextWaterMark(image, new Color(128, 128, 128, 130), 20, "仅用于实名认证，他用无效", "/Users/apple/Downloads/WX20240706-103043-waterMark.jpg");
+        addTextWaterMark(image, new Color(128, 128, 128, 130), 20, "仅用于实名认证，他用无效", "arts/WX20240706-103043-waterMark.jpg");
     }
 }
